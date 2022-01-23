@@ -21,8 +21,7 @@ namespace oDataService.Controllers
         [EnableQuery]
         public ActionResult<IQueryable<Student>> GetStudents()
         {
-            IQueryable<Student> students = studentService.GetStudents();
-            return Ok(students);
+            return Ok(studentService.GetStudents());
         }
     }
 }
