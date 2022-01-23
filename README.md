@@ -3,7 +3,7 @@ Simple OData example using EF + .NET 6
 
 This code assumes that your local machine are running SQL Server and uses this for data persistance. Only basic capabilities are demonstrated here.
 
-1) Run: dotnet ef database upgrade to initate the database
+1) Run: dotnet ef database upgrade to initate the database from the oDataService project folder
 2) Insert some data into Students table: 
 ```SQL
 INSERT INTO Students (Name, Score)
